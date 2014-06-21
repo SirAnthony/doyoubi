@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2014-06-21 05:19+0000\n"
+
+#: /media/sda9/projects/doyoubi/lib/index.js:11
+#: /media/sda9/projects/doyoubi/lib/index.js:13
+msgid "Not found"
+msgstr ""
+
+#: /media/sda9/projects/doyoubi/templates/translit.html:2
+msgid "Transliterate text"
+msgstr ""
+
+#: /media/sda9/projects/doyoubi/templates/translit.html:8
+msgid "Text for transliteration"
+msgstr ""
+
+#: /media/sda9/projects/doyoubi/templates/translit.html:16
+msgid "Transliteration"
+msgstr ""
+
+#: /media/sda9/projects/doyoubi/templates/404.html:4
+#: /media/sda9/projects/doyoubi/templates/404.html:7
+msgid "Page not found"
+msgstr ""
+
+#: /media/sda9/projects/doyoubi/templates/500.html:4
+msgid "Internal server error"
+msgstr ""
+
+#: /media/sda9/projects/doyoubi/templates/500.html:7
+msgid "Server error occured"
+msgstr ""

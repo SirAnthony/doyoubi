@@ -1,0 +1,56 @@
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar {
+	position: relative;
+	min-height: 20px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
+.right {
+	float: right;
+}
+
+.translit {
+	max-width: 60%;
+}
+
+.translit textarea {
+	width: 80%;
+	height: 100px;
+}
+
+img.right {
+ 	max-width: 40%;
+}
+
+
+
+dt {
+	font-size: 1.5em;
+	margin-bottom: 0.3em;
+}
+
+dd {
+	margin-left: 1em;
+}
+
+textarea {
+	overflow: auto;
+	margin: 0;
+	font: inherit;
+	color: inherit;
+}
+
+input[type="submit"], select {
+	cursor: pointer;
+	width: 10em;
+	height: 1.5em;
+	line-height: normal;
+}

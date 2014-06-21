@@ -1,0 +1,28 @@
+
+{% extends 'index.html' %}
+
+{% block title %}{{ gettext('Transliterate text') }}{% endblock %}
+
+{% block content %}
+<img class="right" src="static/sea.jpg" width="500">
+<div class="translit">
+	<form action="/">
+	<input type="submit" class="right"/>
+	<select class="right" name="lang">
+		<option value="en" selected>English</option>
+		<option value="iw">עברית</option>
+	</select>
+	<dl>
+		<dt>{{ gettext('Text for transliteration') }}</dt>
+		<dd>
+				<textarea name="text">{{ original|default("") }}</textarea>
+		</dd>
+	</dl>
+	<dl>
+		<dt>{{ gettext('Transliteration') }}</dt>
+		<dd id="translit">{{ text|default("") }}</dd>
+	</dl>
+	</form>
+</div>
+
+{% endblock %}
